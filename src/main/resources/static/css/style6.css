@@ -1,0 +1,35 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 10px;
+            color: #fff;
+            background-color: #3498db;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        a:hover {
+            background-color: #2980b9;
+        }
+
+        a[href="logout"] {
+            background-color: #e74c3c;
+        }
+
+        a[href="logout"]:hover {
+            background-color: #c0392b;
+        }
+   
